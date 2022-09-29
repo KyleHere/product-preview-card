@@ -59,12 +59,12 @@ main {
     margin: 25px 20px;
 }
 
-.cyan {
+.new-price {
     color: hsl(158, 36%, 37%);
     margin-right: 15px;
 }
 
-.grayish {
+.old-price {
     color: hsl(228, 12%, 48%);
     margin-right: 60px;
     margin-top: 9px;
@@ -130,5 +130,6 @@ button>img {
     button {
         padding: 18px 72px;
         margin-top: 5px;
+        overflow-wrap: break-word;
     }
 }
